@@ -1,0 +1,130 @@
+h1 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  background-color: lightgrey;
+  border-width: 100px;
+  border-radius: 30px;
+}
+h2 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  background-color: lightgrey;
+  border-width: 100px;
+  border-radius: 30px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(images/log_in_background.webp);
+  background-size: cover;
+}
+/* generell button */
+
+.button-link {
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 20%;
+  color: black;
+  background-color: lightgrey;
+
+  border: 2px solid #858484;
+}
+.button.red .button-link {
+  background: grey;
+  font-size: larger;
+  text-emphasis-color: white;
+  text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0%;
+  width: 250px;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+}
+
+.nav-item-link.active {
+  color: black;
+  font-weight: 400;
+  background-color: transparent;
+  background-color: lightgrey;
+}
+
+.nav-item-link {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  background-color: lightgrey;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+  backdrop-filter: blur(10px); /* Apply a blur effect to the form */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Optional: Set a semi-transparent background color for the form */
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.form.submit {
+  margin-bottom: 30px;
+}
+
+.redtext {
+  color: red;
+}
+
+.para {
+  margin-left: 13%;
+  width: 75%;
+}
+.btn-success {
+  margin-left: 42%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+/* 
+#8ed1fc 
+#cf2e2e
+#7bdcb5
+#9b51e0
+
+#6a6884
+#90d6e9
+#ded494
+#e3b1bc
+#ca607b
+
+*/

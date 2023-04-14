@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bästa gruppens vackra hemsida</h1>
+    <div class="navbar">
+      <div class="navbar-left">
+        <nav class="main-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.php" class="nav-item-link">Min sida</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <form
+        action="api/login.php"
+        class="login-form"
+        method="post"
+        id="auth-form"
+      >
+        <p>Logga in för att kunna boka en tid</p>
+        <label class="form-item" for="email"
+          >Mejladress<span class="redtext"> *</span></label
+        >
+        <input type="email" name="email" id="email" />
+        <label class="form-item" for="password"
+          >Lösenord <span class="redtext"> *</span></label
+        >
+        <input type="password" name="password" id="password" />
+        <input class="form-submit" type="submit" value="Logga in" />
+      </form>
+    </div>
+    <script src="auth-form.js" defer></script>
+  </body>
+</html>
